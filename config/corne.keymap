@@ -79,7 +79,7 @@
             bindings = <
 &kp TAB           &kp N1  &kp N2  &kp N3  &kp N4  &kp N5       &trans  &trans  &trans  &trans  &trans  &trans
 &kp LEFT_CONTROL  &kp Q   &kp W   &kp E   &kp R   &kp T        &trans  &trans  &trans  &trans  &trans  &trans
-&trans            &kp A   &kp P   &kp D   &kp F   &kp V        &trans  &trans  &trans  &trans  &trans  &trans
+&trans            &kp A   &kp P   &kp D   &kp F   &kp V        &trans  &trans  &trans  &trans  &trans  &to 0
                                   &trans  &trans  &kp SPACE    &mo 0   &trans  &trans
             >;
         };
