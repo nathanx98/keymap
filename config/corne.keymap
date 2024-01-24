@@ -45,8 +45,8 @@
 
             bindings = <
 &kp GRAVE       &kp EXCL  &kp AT  &kp HASH         &kp DLLR       &kp PRCNT    &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR          &kp RPAR           &trans
-&kp LEFT_SHIFT  &trans    &trans  &kp PLUS         &kp KP_MINUS   &trans       &trans     &kp EQUAL  &kp UNDER        &kp LEFT_BRACE    &kp RIGHT_BRACE    &trans
-&trans          &trans    &trans  &kp KP_ASTERISK  &kp KP_DIVIDE  &trans       &trans     &trans     &trans           &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH
+&kp LEFT_SHIFT  &trans    &trans  &kp PLUS         &kp KP_MINUS   &trans       &trans     &kp EQUAL  &kp UNDER        &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp BACKSLASH
+&trans          &trans    &trans  &kp KP_ASTERISK  &kp KP_DIVIDE  &trans       &trans     &trans     &trans           &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
                                   &trans           &trans         &to 3        &trans     &trans     &trans
             >;
         };
