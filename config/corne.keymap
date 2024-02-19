@@ -18,6 +18,18 @@
         };
     };
 
+    behaviors {
+        new_behavior: new_behavior {
+            compatible = "zmk,behavior-hold-tap";
+            label = "NEW_BEHAVIOR";
+            bindings = <&none>, <&none>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <250>;
+            flavor = "tap-preferred";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -29,10 +41,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB         &mt N1 Q  &mt N2 W  &mt N3 E          &mt N4 R         &mt N5 T              &mt N6 Y  &mt N7 U      &mt N8 I         &mt N9 O    &mt N0 P     &kp BACKSPACE
-&kp LEFT_SHIFT  &kp A           &kp S     &kp D             &kp F         &kp G              &kp H  &kp J      &kp K         &kp L    &kp SEMI  &mt RIGHT_SHIFT SINGLE_QUOTE
-&kp ESCAPE      &kp Z           &kp X     &kp C             &kp V         &kp B              &kp N  &kp M      &kp COMMA     &kp DOT  &kp FSLH  &kp ENTER
-                                          &kp LEFT_CONTROL  &kp LEFT_GUI  &lt 2 BACKSPACE    &mo 1  &kp SPACE  &kp LEFT_ALT
+&kp TAB         &mt N1 Q  &mt N2 W  &mt N3 E          &mt N4 R      &mt N5 T           &mt N6 Y  &mt N7 U   &mt N8 I      &mt N9 O  &mt N0 P  &kp BACKSPACE
+&kp LEFT_SHIFT  &kp A     &kp S     &kp D             &kp F         &kp G              &kp H     &kp J      &kp K         &kp L     &kp SEMI  &mt RIGHT_SHIFT SINGLE_QUOTE
+&kp ESCAPE      &kp Z     &kp X     &kp C             &kp V         &kp B              &kp N     &kp M      &kp COMMA     &kp DOT   &kp FSLH  &kp ENTER
+                                    &kp LEFT_CONTROL  &kp LEFT_GUI  &lt 2 BACKSPACE    &mo 1     &kp SPACE  &kp LEFT_ALT
             >;
         };
 
