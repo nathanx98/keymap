@@ -58,7 +58,7 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&ht F1 GRAVE    &ht F2 EXCL  &ht F3 AT  &ht F4 HASH           &ht F5 DLLR     &ht F6 PRCNT    &ht F7 CARET    &ht F8 AMPS      &ht F9 KP_MULTIPLY     &ht F10 MINUS  &ht F11 EQUAL  &trans F12
+&ht F1 GRAVE    &ht F2 EXCL  &ht F3 AT  &ht F4 HASH           &ht F5 DLLR     &ht F6 PRCNT    &ht F7 CARET    &ht F8 AMPS      &ht F9 KP_MULTIPLY     &ht F10 MINUS  &ht F11 EQUAL  &kp F12
 &kp LEFT_SHIFT  &trans       &kp LBKT   &kp LEFT_PARENTHESIS  &kp LEFT_BRACE  &trans          &kp UNDERSCORE  &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp RBKT       &trans         &kp BACKSLASH
 &trans          &trans       &trans     &trans                &trans          &trans          &trans          &trans           &trans                 &trans         &trans         &trans
                                         &trans                &trans          &to 3           &trans          &trans           &trans
